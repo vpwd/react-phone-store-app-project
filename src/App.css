@@ -1,5 +1,5 @@
 :root {
-    --mainBlue:#2a2a72;
+    --mainBlue:#000000;                                   
     --lightBlue:#009ffd;
     --mainWhit:#f3f3f3;
     --mainDark:#232528;
@@ -9,11 +9,13 @@
 body {
     font-family: 'Oswald', sans-serif !important;
     background: var(--mainWhit) !important;
+    /* background:#C6F7F7 !important;  */
     color: var(--mainDark) !important;
 }
 
 .text-title {
-    font-family:'Permanent Marker', cursive;
+    /* font-family:'Permanent Marker', cursive; */
+    font-family:'Oswald', sans-serif;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
 }
@@ -45,3 +47,18 @@ body {
     font-size: 1.2rem;
     color: var(--mainYellow);
 }
+
+.totals {
+    width: 500px;
+    background:#FFFFFF ;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.totals:hover{
+    border: 0.04rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .02);
+}
+
